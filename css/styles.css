@@ -151,7 +151,7 @@ align-items: center;
 }
 
 .hero-content {
-	padding: 188 317 292 317;
+	
 }
 
 .hero-title {
@@ -245,7 +245,7 @@ align-items: center;
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
-}
+
 
 .team-title {
 	font-family: "Roboto", sans-serif;
@@ -307,7 +307,7 @@ align-items: center;
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
-}
+
 
 .portf-title {
 	font-size: 36px;
@@ -434,7 +434,7 @@ transform: translateY(0);
 
 }
 .icon {
-	fill: none;
-	color: white;
+	fill: black;
+	stroke: white;
 	
 }
