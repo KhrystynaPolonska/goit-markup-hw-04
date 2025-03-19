@@ -480,8 +480,8 @@ text-align: left;
 
 }
 .icon {
-	fill: none;
-	stroke: white;
+max-width: 24px;
+	fill: white;
 	overflow: visible;
 	display: flex;
 		align-items: center;
