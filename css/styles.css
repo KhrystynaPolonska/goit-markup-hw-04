@@ -460,6 +460,7 @@ text-align: left;
 	display: block;
 	align-items: center;
 	justify-items: center;
+	color: white;
 
 }
 .icon-link:hover .icon,
