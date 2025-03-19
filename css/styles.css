@@ -37,6 +37,8 @@ main {
 	padding-top: 24px;
 	padding-bottom: 24px;
 	justify-content: space-between;
+	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
 
 .container {
@@ -62,6 +64,7 @@ align-items: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: #4d5ae5;
+
 }
 
 .logo-style {
@@ -84,7 +87,9 @@ align-items: center;
 	gap: 40px;
 }
 
-.header-nav-item {}
+.header-nav-item {
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .item-nav-link {
 	font-size: 16px;
@@ -98,6 +103,9 @@ align-items: center;
 }
 .current {
 	color: #404bbf;
+	position: relative;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current ::after {
 	content: "";
@@ -106,6 +114,7 @@ align-items: center;
 	bottom: -1px;
 	height: 4px;
 	width: 100px;
+	border-radius: 2px;
 	background-color: #404bbf;
 }
 .item-nav-link:hover,
@@ -289,7 +298,8 @@ margin-bottom: 8px;
 
 .team-list-item {
 	background-color: #FFFFFF;
-
+ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
 }
 
 .team-image {
@@ -322,14 +332,16 @@ margin-bottom: 8px;
 	color: #434455;
 }
 .team-icon-list {
-display: flex;
-gap: 24px;
-padding-top: 8px;
-	justify-content: center;
-	height: 40px;
+ display: flex;
+ gap: 24px;
+ padding-top: 8px;
+ justify-content: center;
+ height: 40px;
+ 
 }
 .team-item-icon {
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+height: 40px;
 }
 .team-icon-link {
 	width: 100%;
@@ -454,12 +466,14 @@ transform: translateY(0);
 }
 .container {
 	justify-content: flex-start;
-	
+
 }
 .footer-content {
  text-align: left;
  padding-right: 864px;
-margin-right: 120px;
+ margin-right: 120px;
+display: flex;
+align-items: baseline;
 
 }
 
@@ -471,8 +485,6 @@ margin-right: 120px;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: #4d5ae5;
-	display: inline-block;
-	margin-bottom: 16px;
 
 }
 
@@ -503,11 +515,17 @@ margin-right: 120px;
 	justify-items: center;
 color: white;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+background-color: #4d5ae5;
+	display: inline-block;
+	margin-bottom: 16px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
 
 }
 .icon-link:hover .icon,
-.addr-link:focus  .icon {
-background-color: #31d0aa;;
+.icon-link:focus  .icon {
+background-color: #31d0aa;
 }
 .social {
 padding-left: 384px;
