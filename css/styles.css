@@ -94,13 +94,17 @@ align-items: center;
 	font-weight: 500;
 	line-height: 24px;
 	letter-spacing: 0.02em;
-    color: #404bbf;
+	color: #2e2f42;
 	display: block;
 	position: relative;
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.current::after {
+.nav-link.current {
+	color: #404bbf;
+}
+
+.nav-link.current::after {
 	content: '';
 	position: absolute;
 	left: 0;
