@@ -52,8 +52,6 @@ main {
 .header-container {
 	display: flex;
 	align-items: center;
-align-items: center;
-	
 }
 
 .logo {
@@ -141,19 +139,14 @@ align-items: center;
 	line-height: 24px;
 	letter-spacing: 0.02em;
 	color: #434455;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.addr-link:hover,
-.addr-link:focus {
-color: #404bbf;
-}
-
 /* button place */
 .hero {
 background-color: #2E2F42;
 padding-top: 356px;
 padding-bottom: 188px;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../imagess/people-office\ 1.jpg);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../imagess/people-office 1.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 max-width: 1440px;
@@ -181,14 +174,14 @@ background-position: center;
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.04em;
-	color: white;
-	background-color: #4d5ae5;
 	display: block;
 	margin: 0 auto;
 	margin-top: 48px;
 	padding: 16px 32px;
 	border: none;
  border-radius: 4px;
+	color: white;
+	background-color: #4d5ae5;
  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -407,7 +400,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	color: #2e2f42;
 	padding-bottom: 8px;
 }
-.portf-list-item:hover .overlay {
+.portf-list-item:hover {
 opacity: 1;
 transform: translateY(0);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
