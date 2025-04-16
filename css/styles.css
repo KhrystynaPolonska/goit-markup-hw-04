@@ -107,7 +107,7 @@ main {
 .main-nav-link.current {
 	color: #404bbf;
 }
-.main-nav-link.current:before {
+.main-nav-link.current::before {
 	content: '';
 	position: absolute;
 	left: 0;
